@@ -1,3 +1,5 @@
+set -e
+
 pip --version
 # Install general requirements the way setup.py suggests
 pip install pytest==4.6.* pep8 codecov pytest-cov flake8 flaky mypy flake8-import-order matplotlib

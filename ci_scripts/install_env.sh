@@ -1,3 +1,5 @@
+set -e
+
 python --version
 
 if [[ "$DISTRIB" == "conda" ]]; then
